@@ -3,7 +3,7 @@
   "extends": [
     "config:recommended",
     "default:automergeDigest",
-    "default:automergeBranchPush"
+    ":automergeBranch"
   ],
   "enabledManagers": ["dockerfile"],
   "dockerfile": {
