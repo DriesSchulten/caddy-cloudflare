@@ -4,6 +4,6 @@ RUN xcaddy build \
     --with github.com/caddy-dns/cloudflare \
     --with github.com/mholt/caddy-dynamicdns
 
-FROM caddy:2@sha256:a22e108570bde2bf9ca3e584bc7d5bb94f9555e9e17353242e6ec4505ff4880d
+FROM caddy:2@sha256:cb9d71ad83182011b79355cd57692686374bd78d6fe327efe0ff8507da03ab13
 
 COPY --from=builder /usr/bin/caddy /usr/bin/caddy
